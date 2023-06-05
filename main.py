@@ -1,3 +1,5 @@
+import time #it is time module
+
 print ("Hello World")
 
 print (5+10)
@@ -182,4 +184,16 @@ elif(((budget < 27999) and (budget > 25000)) ):
     print("You can purchases vivo v27")
 else:
     print("Sorry, Your budget is low")
+
+# time wise day declear using if else ondition
+
+timestamp = time.strftime("%H:%M:%S")
+print(timestamp)
+if(timestamp > "12:00:00" and timestamp < "13:00:00"):
+    print("Good Morning")
+elif(timestamp > "13:00:00" and timestamp < "14:00:00"):
+    print("Good Afternoon")
+else:
+    print("Good Evening")
+
 
