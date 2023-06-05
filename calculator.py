@@ -23,21 +23,21 @@ print("3. MULTIPLY")
 print("4. DIVIDE")
 print("5. FLOOR DIVISION")
 
-operation = input()
+operation = input("Please enter given the above options: ")
 
 num1 = int(input("Please Enter first no. "))
 num2 = int(input("Please Enter second no. "))
 
 if operation == "1":
-    print(num1, "+", num2, "=", add(num1,num2))
+    print(num1, "+", num2, "=", add(num1,num2), "Ans")
 elif operation == "2":
-    print(num1, "-", num2, "=", subtract(num1,num2))
+    print(num1, "-", num2, "=", subtract(num1,num2), "Ans")
 elif operation == "3":
-    print(num1, "*", num2, "=", multiply(num1,num2))
+    print(num1, "*", num2, "=", multiply(num1,num2), "Ans")
 elif operation == "4":
-    print(num1, "/", num2, "=", divide(num1,num2))
+    print(num1, "/", num2, "=", divide(num1,num2), "Ans")
 elif operation == "5":
-    print(num1, "//", num2, "=", floor_division(num1,num2))
+    print(num1, "//", num2, "=", floor_division(num1,num2), "Ans")
 else:
     print("invalid input")
 
